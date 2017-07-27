@@ -1,0 +1,28 @@
+using System; 
+//Console.Read() 示例
+
+class KbIn {
+public static void Main() 
+{ 
+    char ch; 
+    Console.Write("Press a key followed by ENTER: "); 
+    ch = (char) Console.Read(); // get a char 
+    Console.WriteLine("Your key is: " + ch); 
+  }
+} 
+
+ 
+
+using System;
+//Console.ReadLine() 示例
+
+class ReadString { 
+public static void Main() 
+{ 
+    string str; 
+    Console.WriteLine("Enter some characters."); 
+    str = Console.ReadLine(); 
+    Console.WriteLine("You entered: " + str); 
+  } 
+
+} 
