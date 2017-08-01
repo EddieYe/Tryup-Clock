@@ -1,0 +1,10 @@
+using System;
+
+class ReadingString { 
+public static void Main() 
+{ 
+    
+    Console.WriteLine("Reading Hello World !" ); 
+  } 
+
+} 
